@@ -17,7 +17,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div className="navbar bg-base-100">
-          <Link href="/" className="btn btn-ghost normal-case text-xl">Critri</Link>
+          <Link href="/" className="btn btn-ghost normal-case text-xl">Citri</Link>
+          <Link href="/users" className="btn btn-ghost normal-case text-xl">Users</Link>
           <Link href="/about" className="btn btn-ghost normal-case text-xl">About</Link>
 
         </div>
