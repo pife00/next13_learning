@@ -1,7 +1,14 @@
-type Users = {
-    name:string, 
-    username:string, 
-    email:string
-}
+export type Users = {
+  id: number;
+  name: string;
+  username: string;
+  email: string;
+};
 
-export default Users
+export type Post = {
+  userId: number;
+  id: number;
+  title: string;
+  body: string;
+};
+
